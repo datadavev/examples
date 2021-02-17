@@ -16,8 +16,7 @@ module.exports = {
     "ui": {
         "port": 2001
     },
-    "files": ["common","jsonld"],
-    "directory":true,
+    "files": false,
     "watchEvents": [
         "change"
     ],
@@ -27,7 +26,10 @@ module.exports = {
     "watchOptions": {
         "ignoreInitial": true
     },
-    "server": true,
+    "server": {
+        "baseDir": "docs",
+        "directory": true
+    },
     "proxy": false,
     "port": 2000,
     "middleware": false,
