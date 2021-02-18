@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello JSON-LD</title>
+        <link rel="stylesheet" href="../css/common.css">
+        <script src="../js/common.js"></script>
+        <script type="application/ld+json">
+            {
+                "@context":{
+                    "@vocab":"https://schema.org/"
+                },
+                "@id": "http://dave.vieglais.com/examples/jsonld/ex03.html",
+                "@type": "Dataset",
+                "name": "Example 03",
+                "description": "This is an example of a minimal schema.org Dataset that uses a local context definition. A processor will not retrieve a remote context when expanding this JSON-LD.",
+                "license":"https://creativecommons.org/licenses/by/4.0/",
+                "creator":{
+                    "@type":"Person",
+                    "@id":"https://orcid.org/0000-0002-6513-4996",
+                    "name":"Dave Vieglais"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p>Hello JSON-LD.</p>
+        <p><a href="https://github.com/datadavev/examples/blob/main/docs/jsonld/ex03.html">View the source.</a></p>
+    </body>
+</html>

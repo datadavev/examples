@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/common.js"></script>
+    <script>
+const metadata = {
+    "@ontext":{
+        "@vocab":"https://schema.org/"
+    },
+    "@id":"ex02.html",
+    "@type":"Dataset",
+    "name":"Example 02",
+    "description":"This block of metadata is injected into the document on rendering."
+}
+  
+function addJsonLd(){
+    var head = document.getElementsByTagName("head")[0];
+    var jsonld = document.createElement("script");
+    jsonld.setAttribute("type", "application/ld+json");
+    jsonld.textContent = JSON.stringify(metadata);
+    head.appendChild(jsonld);
+}
+    </script>
+  </head>
+
+  <body onload="javascript:addJsonLd()">
+    <h1>Hello json-ld</h1>
+    <p>This page dynamically injects a chunk of JSON-LD for testing parsers.</p>
+    <p><a href="https://github.com/datadavev/examples/blob/main/docs/jsonld/ex02.html">View the source.</a></p>
+  </body>
+</html>
