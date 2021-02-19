@@ -1,0 +1,25 @@
+{
+    "@context": {
+        "@import": "https://schema.org/",
+        "creator": {
+            "@container":"@list"
+        }
+    },
+    "@id": "http://dave.vieglais.com/examples/jsonld/ex04.jsonld",
+    "@type": "Dataset",
+    "name": "Example 04",
+    "description": "Remote context with an override of the creator definition",
+    "license":"https://creativecommons.org/licenses/by/4.0/",
+    "creator":[
+        {
+            "@type":"Person",
+            "@id":"https://orcid.org/0000-0002-6513-4996",
+            "name":"Dave Vieglais"
+        },
+        {
+            "@type":"Person",
+            "@id":"https://orcid.org/0000-0003-1453-1171",
+            "name":"Mickey Mouse"
+        }
+    ]
+}
