@@ -1,0 +1,62 @@
+[
+    {
+        "@context": [
+            "https://schema.org/",
+            {
+                "creator": {
+                    "@container": "@list"
+                },
+                "identifier": {
+                    "@container": "@list"
+                }
+            }
+        ],
+        "@id": "https://datadavev.github.io/examples/jsonld/ex06.jsonld",
+        "@type": "Dataset",
+        "name": "Example 06",
+        "description": "Remote context with an override of the creator and identifier definitions. Dataset 1 of 2 in a single document.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": [
+            "A Name 1",
+            "Z name 1",
+            "B Name 1"
+        ],
+        "identifier": [
+            "Bidentifier-01-1",
+            {
+                "@id": "#Cidentifier",
+                "@type": "propertyValue",
+                "value": "Cidentifier-02-1",
+                "url": "http://datadavev.github.io/examples/jsonld/ex05.jsonld"
+            },
+            "Aidentifier-03-1"
+        ],
+        "url": "https://datadavev.github.io/examples/jsonld/ex06.jsonld#url"
+    },
+    {
+        "@context": [
+            "https://schema.org/"
+        ],
+        "@id": "http://datadavev.github.io/examples/jsonld/ex07.jsonld",
+        "@type": "Dataset",
+        "name": "Example 07",
+        "description": "Remote context with no ordering of creator or identifier. Dataset 2 of 2 in a single document.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": [
+            "A Name 2",
+            "Z name 2",
+            "B Name 2"
+        ],
+        "identifier": [
+            "Bidentifier-01-2",
+            {
+                "@id": "#Cidentifier",
+                "@type": "propertyValue",
+                "value": "Cidentifier-02-2",
+                "url": "http://datadavev.github.io/examples/jsonld/ex07.jsonld"
+            },
+            "Aidentifier-03-2"
+        ],
+        "url": "https://datadavev.github.io/examples/jsonld/ex07.jsonld#url"
+    }
+]
