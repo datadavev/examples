@@ -1,0 +1,8 @@
+{
+    "@context": "https://schema.org/",
+    "@graph": [
+        {
+            "@id": "https://datadavev.github.io/examples/jsonld/ex10_b.jsonld"
+        }
+    ]
+}

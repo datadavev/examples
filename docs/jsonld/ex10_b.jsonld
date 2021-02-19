@@ -1,0 +1,11 @@
+{
+    "@context": "https://schema.org/",
+    "@id": "http://datadavev.github.io/examples/jsonld/ex10_b.jsonld",
+    "@type": "Dataset",
+    "name": "Example 10 data",
+    "description": "This is the dataset part of example 10",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+        "@id": "https://datadavev.github.io/examples/jsonld/ex10_a.jsonld"
+    }
+}
