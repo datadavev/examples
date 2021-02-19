@@ -1,13 +1,15 @@
 {
-    "@context": {
-        "@import": "https://schema.org/",
-        "creator": {
-            "@container":"@list"
+    "@context": [
+        "https://schema.org/",
+        {
+            "creator": {
+                "@container":"@list"
+            }
         }
-    },
+    ],
     "@id": "http://dave.vieglais.com/examples/jsonld/ex05.jsonld",
     "@type": "Dataset",
-    "name": "Example 04",
+    "name": "Example 05",
     "description": "Remote context with an override of the creator definition",
     "license":"https://creativecommons.org/licenses/by/4.0/",
     "creator":[
