@@ -2,7 +2,7 @@
     "@context": [
         "https://schema.org/"
     ],
-    "@id": "http://dave.vieglais.com/examples/jsonld/ex07.jsonld",
+    "@id": "http://datadavev.github.io/examples/jsonld/ex07.jsonld",
     "@type": "Dataset",
     "name": "Example 07",
     "description": "Remote context with no ordering of creator or identifier",
@@ -18,8 +18,9 @@
             "@id": "#Cidentifier",
             "@type": "propertyValue",
             "value": "Cidentifier-02",
-            "url": "http://dave.vieglais.com/examples/jsonld/ex05.jsonld"
+            "url": "http://datadavev.github.io/examples/jsonld/ex07.jsonld"
         },
         "Aidentifier-03"
-    ]
+    ],
+    "url": "https://datadavev.github.io/examples/jsonld/ex07.jsonld#url"
 }

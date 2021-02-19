@@ -10,7 +10,7 @@
             }
         }
     ],
-    "@id": "http://dave.vieglais.com/examples/jsonld/ex06.jsonld",
+    "@id": "https://datadavev.github.io/examples/jsonld/ex06.jsonld",
     "@type": "Dataset",
     "name": "Example 06",
     "description": "Remote context with an override of the creator and identifier definitions",
@@ -26,8 +26,9 @@
             "@id": "#Cidentifier",
             "@type": "propertyValue",
             "value": "Cidentifier-02",
-            "url": "http://dave.vieglais.com/examples/jsonld/ex05.jsonld"
+            "url": "http://datadavev.github.io/examples/jsonld/ex05.jsonld"
         },
         "Aidentifier-03"
-    ]
+    ],
+    "url": "https://datadavev.github.io/examples/jsonld/ex06.jsonld#url"
 }

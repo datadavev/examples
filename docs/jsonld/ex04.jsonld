@@ -1,13 +1,13 @@
 {
     "@context": "https://schema.org/",
-    "@id": "http://dave.vieglais.com/examples/jsonld/ex04.jsonld",
+    "@id": "http://datadavev.github.io/examples/jsonld/ex04.jsonld",
     "@type": "Dataset",
     "name": "Example 04",
     "description": "This is an example of a minimal schema.org Dataset that uses a remote context definition. A processor will retrieve a remote context from the specified IRI when expanding this JSON-LD.",
-    "license":"https://creativecommons.org/licenses/by/4.0/",
-    "creator":{
-        "@type":"Person",
-        "@id":"https://orcid.org/0000-0002-6513-4996",
-        "name":"Dave Vieglais"
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-6513-4996",
+        "name": "Dave Vieglais"
     }
 }

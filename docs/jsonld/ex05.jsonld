@@ -3,25 +3,25 @@
         "https://schema.org/",
         {
             "creator": {
-                "@container":"@list"
+                "@container": "@list"
             }
         }
     ],
-    "@id": "http://dave.vieglais.com/examples/jsonld/ex05.jsonld",
+    "@id": "http://datadavev.github.io/examples/jsonld/ex05.jsonld",
     "@type": "Dataset",
     "name": "Example 05",
     "description": "Remote context with an override of the creator definition",
-    "license":"https://creativecommons.org/licenses/by/4.0/",
-    "creator":[
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": [
         {
-            "@type":"Person",
-            "@id":"https://orcid.org/0000-0002-6513-4996",
-            "name":"Dave Vieglais"
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-6513-4996",
+            "name": "Dave Vieglais"
         },
         {
-            "@type":"Person",
-            "@id":"https://orcid.org/0000-0003-1453-1171",
-            "name":"Mickey Mouse"
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0003-1453-1171",
+            "name": "Mickey Mouse"
         }
     ]
 }
