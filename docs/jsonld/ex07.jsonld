@@ -1,19 +1,11 @@
 {
     "@context": [
-        "https://schema.org/",
-        {
-            "creator": {
-                "@container": "@list"
-            },
-            "identifier": {
-                "@container": "@list"
-            }
-        }
+        "https://schema.org/"
     ],
-    "@id": "http://dave.vieglais.com/examples/jsonld/ex06.jsonld",
+    "@id": "http://dave.vieglais.com/examples/jsonld/ex07.jsonld",
     "@type": "Dataset",
-    "name": "Example 06",
-    "description": "Remote context with an override of the creator and identifier definitions",
+    "name": "Example 07",
+    "description": "Remote context with no ordering of creator or identifier",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "creator": [
         "A Name",
