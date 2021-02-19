@@ -22,7 +22,12 @@
     ],
     "identifier": [
         "Bidentifier-01",
-        "Cidentifier-02",
+        {
+            "@id": "#Cidentifier",
+            "@type": "propertyValue",
+            "value": "Cidentifier-02",
+            "url": "http://dave.vieglais.com/examples/jsonld/ex05.jsonld"
+        },
         "Aidentifier-03"
     ]
 }
