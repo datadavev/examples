@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "https://schema.org/",
+        {
+            "creator": {
+                "@container": "@list"
+            },
+            "identifier": {
+                "@container": "@list"
+            }
+        }
+    ],
+    "@id": "http://dave.vieglais.com/examples/jsonld/ex05.jsonld",
+    "@type": "Dataset",
+    "name": "Example 05",
+    "description": "Remote context with an override of the creator and identifier definitions",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": [
+        "A Name",
+        "Z name",
+        "B Name"
+    ],
+    "identifier": [
+        "Bidentifier-01",
+        "Cidentifier-02",
+        "Aidentifier-03"
+    ]
+}
