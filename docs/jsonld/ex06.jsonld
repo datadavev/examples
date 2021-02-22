@@ -24,7 +24,7 @@
         "Bidentifier-01",
         {
             "@id": "#Cidentifier",
-            "@type": "propertyValue",
+            "@type": "PropertyValue",
             "value": "Cidentifier-02",
             "url": "http://datadavev.github.io/examples/jsonld/ex05.jsonld"
         },
