@@ -13,7 +13,7 @@
                 "@id": "#person01"
             },
             "name": "example 09",
-            "description": "Example 09 and 09b should normalize to be the same"
+            "description": "Example 09 and 09b should normalize to be the same."
         },
         {
             "@id": "#person01",
