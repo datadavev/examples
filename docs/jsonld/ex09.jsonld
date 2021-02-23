@@ -1,5 +1,10 @@
 {
-    "@context": "https://schema.org/",
+    "@context": [
+        "https://schema.org/",
+        {
+            "@base": "https://datadavev.github.io/examples/jsonld/ex09"
+        }
+    ],
     "@graph": [
         {
             "@id": "#dataset",
@@ -8,7 +13,7 @@
                 "@id": "#person01"
             },
             "name": "example 09",
-            "description": "Example 09 with reference to creator"
+            "description": "Example 09 and 09b should normalize to be the same"
         },
         {
             "@id": "#person01",
