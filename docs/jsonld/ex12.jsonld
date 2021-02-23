@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://schema.org/",
+        {
+            "@base": "https:/example.net/people"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "#someperson",
+            "@type": "Person",
+            "name": "Jane Doe"
+        }
+    ]
+}
