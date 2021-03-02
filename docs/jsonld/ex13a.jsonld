@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "geosci-time": "http://schema.geoschemas.org/contexts/temporal#"
+      },
+      "@type": "Dataset",
+      "identifier": "http://example.net/test/01",
+      "name":"Dataset with xsd properties",
+      "dateModified": "2021-02-24T08:04:30.134Z",
+      "version": 1,
+      "geosci-time": {
+        "@type": "time:Instant",
+        "time:inTimePosition": {
+          "@type": "time:ProperInterval",
+          "time:hasBeginning": {
+            "time:hasTRS": {
+              "@id": "geosci-time:BeforePresent"
+            },
+            "time:numericPosition": {
+              "@value": 34000000,
+              "@type": "xsd:decimal"
+            }
+          },
+          "time:hasEnd": {
+            "time:hasTRS": {
+              "@id": "geosci-time:BeforePresent"
+            },
+            "time:numericPosition": {
+              "@value": 53000000,
+              "@type": "xsd:decimal"
+            }
+          }
+        }
+      }
+  }
