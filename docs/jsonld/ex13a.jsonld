@@ -1,8 +1,10 @@
 {
     "@context": {
-        "@vocab": "https://schema.org/",
+        "@vocab": "http://schema.org/",
         "geosci-time": "http://schema.geoschemas.org/contexts/temporal#"
       },
+      "description":"This example is invalid, creating a conflict between the absolute IRI xsd:decimal and the prefix xsd",
+      "seeAlso":"",
       "@type": "Dataset",
       "identifier": "http://example.net/test/01",
       "name":"Dataset with xsd properties",

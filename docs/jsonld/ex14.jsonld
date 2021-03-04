@@ -1,0 +1,25 @@
+{
+    "@context":
+        {
+            "@vocab": "https://schema.org/",
+            "prov": "http://www.w3.org/ns/prov#",
+            "provone": "http://purl.dataone.org/provone/2015/01/15/ontology#"
+        },
+    "@graph": [
+        {
+            "@id":"ex14.jsonld",
+            "@type":"Dataset",
+            "name":"Example 14",
+            "description": "Dataset with some provenance",
+            "prov:wasRevisionOf":"ex14-pre.jsonld"
+        },
+        {
+            "@id":"#prov-1",
+            "@type":"provone:Execution",
+            "prov:hadPlan": "https://example.net/scripts/script-1.R",
+            "prov:used": {
+                "@id": "ex14.jsonld"
+            }
+        }
+    ]
+}

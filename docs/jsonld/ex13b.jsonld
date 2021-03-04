@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://schema.org/",
+        {
+            "@import": "http://schema.geoschemas.org/contexts/temporal#"
+        }
+    ],
+    "description":"This example is valid and correctly expands IRIs for the properties of time",    
+    "@type": "Dataset",
+    "identifier": "http://example.net/test/01",
+    "name":"Dataset with xsd properties",
+    "dateModified": "2021-02-24T08:04:30.134Z",
+    "version": 1,
+    "geosci-time": {
+        "@type": "time:Instant",
+        "time:inTimePosition": {
+            "@type": "time:ProperInterval",
+            "time:hasBeginning": {
+                "time:hasTRS": {
+                    "@id": "geosci-time:BeforePresent"
+                },
+                "time:numericPosition": {
+                    "@value": 34000000,
+                    "@type": "xsd:decimal"
+                }
+            },
+            "time:hasEnd": {
+                "time:hasTRS": {
+                    "@id": "geosci-time:BeforePresent"
+                },
+                "time:numericPosition": {
+                    "@value": 53000000,
+                    "@type": "xsd:decimal"
+                }
+            }
+        }
+    }
+  }
