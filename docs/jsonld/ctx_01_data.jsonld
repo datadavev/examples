@@ -1,0 +1,6 @@
+{
+	"@context": "./ctx_01_context.jsonld",
+	"@id": "cx_01_data.jsonld",
+	"creator": "Dave",
+	"description": "Example context 01"
+}

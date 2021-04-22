@@ -5,6 +5,8 @@
     <script type="application/ld+json" src="ex14.jsonld"></script>
 </head>
 <body>
-<p>Example 14. REferences the JSON-LD with a <code>src</code> attribute.</p>
+<p>Example 14. References the JSON-LD with a <code>src</code> attribute.</p>
+<p>This doesn't work because it violates the <a href="https://html.spec.whatwg.org/multipage/scripting.html#script">HTML5 scripting specification</a>.</p>
+<cite>When used to include data blocks, the data must be embedded inline, the format of the data must be given using the type attribute, and the contents of the script element must conform to the requirements defined for the format used. The src, async, nomodule, defer, crossorigin, integrity, and referrerpolicy attributes must not be specified.</cite>
 </body>
 </html>
