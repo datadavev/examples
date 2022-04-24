@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JSON-LD id_check</title>
+    <link rel="stylesheet" href="../css/common.css" />
+    <script src="../js/common.js"></script>
+    <script type="application/ld+json">
+    {
+        "@context":{
+            "@vocab":"https://schema.org/"
+        },
+        "@id": "",
+        "description": "JSON-LD block with blank @id. This is the first script in document."
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context":{
+            "@vocab":"https://schema.org/"
+        },
+        "description": "JSON-LD block with no @id. Second script in document."
+    }
+    </script>  
+    <script type="application/ld+json">
+    {
+        "@context":{
+            "@vocab":"https://schema.org/"
+        },
+        "@id":"3rd",
+        "description": "JSON-LD block with @id="3rd". Third script in document."
+    }
+    </script>  
+    <script type="application/ld+json" id="4th">
+    {
+        "@context":{
+            "@vocab":"https://schema.org/"
+        },
+        "description": "JSON-LD block with no @id, script id="3rd". Fourth script in document."
+    }
+    </script>  
+  
+</head>
+
+<body>
+    <p>Hello JSON-LD.</p>
+    <p><a href="https://github.com/datadavev/examples/blob/main/docs/jsonld/ex01.html">View the source.</a></p>
+</body>
+
+</html>
