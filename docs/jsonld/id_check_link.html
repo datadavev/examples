@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JSON-LD id_check</title>
+    <link rel="stylesheet" href="../css/common.css" />
+    <script src="../js/common.js"></script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@id": "",
+        "description": "JSON-LD block with blank @id. This is the first script in document. Using link header SO."
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "description": "JSON-LD block with no @id. Second script in document."
+    }
+    </script>  
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@id":"3rd",
+        "description": "JSON-LD block with @id='3rd'. Third script in document."
+    }
+    </script>  
+    <script type="application/ld+json" id="4th">
+    {
+        "@context": "https://schema.org/",
+        "description": "JSON-LD block with no @id, script id='4th'. Fourth script in document."
+    }
+    </script>  
+  
+</head>
+
+<body>
+    <p>Hello JSON-LD.</p>
+  <p>This document has JSON-LD using the schema.org context addressed via the link header</p>
+    <p><a href="https://github.com/datadavev/examples/blob/main/docs/jsonld/id_check.html">View the source.</a></p>
+</body>
+
+</html>
